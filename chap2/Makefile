@@ -1,7 +1,7 @@
 OBJS = chap2TemplateArgumentDeduction.o
 CC = g++
 DEBUG = -g
-CFLAGS = -Wall -c $(DEBUG)
+CFLAGS = -Wall -c $(DEBUG)  -std=c++0x
 LFLAGS = -Wall $(DEBUG)
 
 p1 : $(OBJS)
