@@ -1,5 +1,5 @@
 OBJS = chap4VirtualFunctions.o
-CC = g++
+CC = /usr/lib/gcc-snapshot/bin/g++
 DEBUG = -g
 CFLAGS = -Wall -c $(DEBUG) -std=c++0x
 LFLAGS = -Wall $(DEBUG)
